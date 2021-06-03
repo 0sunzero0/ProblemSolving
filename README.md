@@ -1,5 +1,5 @@
 # ProblemSolving
-### 알고리즘 실력을 올리기 위한 연습 👨‍💻
+### Repository For Upgrading Problem Solving Capabilities Using Algorithm
 ## ❤️ 1 Week Coding Challenge
 https://programmers.co.kr/learn/courses/30/lessons/42576
 <br><br>
