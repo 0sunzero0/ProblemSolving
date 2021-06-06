@@ -20,13 +20,12 @@
 <details>
   <summary> Week 2 (👈 Clink) </summary>
 <ul>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/42576</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/12925</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/12917</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/42840</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/12919</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/12903</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/12948</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/12969 / 이것이 코딩테스트다 Q-1 모험가길드</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/12954 / 이것이 코딩테스트다 Q-2 곱하기 또는 더하기</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/68644 / 이것이 코딩테스트다 Q-3 문자열 뒤집기</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/12901 / 이것이 코딩테스트다 Q-4 만들수 없는 금액</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/68935 / 이것이 코딩테스트다 Q-5 볼링공 고르기</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/42889 / 이것이 코딩테스트다 Q-6 무지의 먹방 라이브</li>
 </ul>
 </details>
 <details>
