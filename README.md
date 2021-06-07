@@ -40,6 +40,15 @@
   <li> https://programmers.co.kr/learn/courses/30/lessons/12948</li>
 </ul>
 </details>
+<details>
+  <summary> 🔑 Key Point (👈 Clink) </summary>
+<ul>
+  <li> 문제 설명</li>
+  <li> 나의 풀이</li>
+  <li> 최적화된 풀이</li>
+  <li> 느낀점</li>
+</ul>
+</details>
 <hr>
 <h2> 📝 Subject Topic</h2>
 <ul>
@@ -63,8 +72,3 @@
   </li>
 </ul>
 <hr>
-
-
-
-
-
