@@ -31,7 +31,6 @@
 <details>
   <summary> Week 3 (👈 Clink) </summary>
 <ul>
-  <li>https://programmers.co.kr/learn/courses/30/lessons/12954 / 이것이 코딩테스트다 Q-2 곱하기 또는 더하기</li>
   <li>https://programmers.co.kr/learn/courses/30/lessons/12926 / 이것이 코딩테스트다 Q-7 럭키 스트레이트</li>
   <li>https://programmers.co.kr/learn/courses/30/lessons/42862 / 이것이 코딩테스트다 Q-9 문자열 압축</li>
   <li>https://programmers.co.kr/learn/courses/30/lessons/12917 / 이것이 코딩테스트다 Q-8 문자열 재정렬</li>
