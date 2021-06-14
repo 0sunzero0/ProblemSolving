@@ -25,12 +25,12 @@
   <li> https://programmers.co.kr/learn/courses/30/lessons/68644 / 이것이 코딩테스트다 Q-3 문자열 뒤집기</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12901 / 이것이 코딩테스트다 Q-4 만들수 없는 금액</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/68935 / 이것이 코딩테스트다 Q-5 볼링공 고르기</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/42889 / 이것이 코딩테스트다 Q-6 무지의 먹방 라이브</li>
 </ul>
 </details>
 <details>
   <summary> Week 3 (👈 Clink) </summary>
 <ul>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/42889 / 이것이 코딩테스트다 Q-6 무지의 먹방 라이브</li>
   <li>https://programmers.co.kr/learn/courses/30/lessons/12926 / 이것이 코딩테스트다 Q-7 럭키 스트레이트</li>
   <li>https://programmers.co.kr/learn/courses/30/lessons/42862 / 이것이 코딩테스트다 Q-9 문자열 압축</li>
   <li>https://programmers.co.kr/learn/courses/30/lessons/12917 / 이것이 코딩테스트다 Q-8 문자열 재정렬</li>
