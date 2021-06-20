@@ -20,28 +20,49 @@
 <details>
   <summary> Week 2 (👈 Clink) </summary>
 <ul>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/12969 / 이것이 코딩테스트다 Q-1 모험가길드</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/12954 / 이것이 코딩테스트다 Q-2 곱하기 또는 더하기</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/68644 / 이것이 코딩테스트다 Q-3 문자열 뒤집기</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/12901 / 이것이 코딩테스트다 Q-4 만들수 없는 금액</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/68935 / 이것이 코딩테스트다 Q-5 볼링공 고르기</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/12969</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/12954</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/68644</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/12901</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/68935</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/42889</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/12926</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/42862</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/12917</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/12950</li>
 </ul>
 </details>
 <details>
-  <summary> Week 3 (👈 Clink) </summary>
+  <summary> Week 3 (👈 Clink) : Greedy </summary> 
 <ul>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/42889 / 이것이 코딩테스트다 Q-6 무지의 먹방 라이브</li>
-  <li>https://programmers.co.kr/learn/courses/30/lessons/12926 / 이것이 코딩테스트다 Q-7 럭키 스트레이트</li>
-  <li>https://programmers.co.kr/learn/courses/30/lessons/42862 / 이것이 코딩테스트다 Q-9 문자열 압축</li>
-  <li>https://programmers.co.kr/learn/courses/30/lessons/12917 / 이것이 코딩테스트다 Q-8 문자열 재정렬</li>
-  <li>https://programmers.co.kr/learn/courses/30/lessons/12950 / 이것이 코딩테스트다 Q-10 자물쇠와 열쇠</li>
+  <li> 이것이 코딩테스트다 Q-1 모험가길드</li>
+  <li> 이것이 코딩테스트다 Q-2 곱하기 또는 더하기</li>
+  <li> 이것이 코딩테스트다 Q-3 문자열 뒤집기</li>
+  <li> 이것이 코딩테스트다 Q-4 만들수 없는 금액</li>
+  <li> 이것이 코딩테스트다 Q-5 볼링공 고르기</li>
+  <li> 이것이 코딩테스트다 Q-6 무지의 먹방 라이브</li>
 </ul>
 </details>
 <details>
-  <summary> Week 4 (👈 Clink) </summary>
+  <summary> Week 4 (👈 Clink) : Implementation & Sort</summary>
   <ul>
+    <li> 이것이 코딩테스트다 Q-7 럭키 스트레이트</li>
+    <li> 이것이 코딩테스트다 Q-9 문자열 압축</li>
+    <li> 이것이 코딩테스트다 Q-8 문자열 재정렬</li>
+    <li> 이것이 코딩테스트다 Q-10 자물쇠와 열쇠</li>
     <li> 이것이 코딩테스트다 Q-23 국영수</li>
     <li> 이것이 코딩테스트다 Q-24 안테나</li>
+  </ul>
+</details>
+<details>
+  <summary> Week 5 (👈 Clink) : Implementation & Sort</summary>
+  <ul>
+    <li> 이것이 코딩테스트다 Q-11 뱀</li>
+    <li> 이것이 코딩테스트다 Q-12 기둥고 보 설치</li>
+    <li> 이것이 코딩테스트다 Q-13 치킨 배달</li>
+    <li> 이것이 코딩테스트다 Q-14 외벽 점검</li>
+    <li> 이것이 코딩테스트다 Q-25 실패율</li> 
+    <li> 이것이 코딩테스트다 Q-26 카드 정렬하기</li>
   </ul>
 </details>
 <details>
