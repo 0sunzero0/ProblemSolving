@@ -6,7 +6,7 @@
 <hr>
 <h2> 👨‍💻 Coding Challenge </h2>
 <details>
-  <summary> Week 1 (👈 Clink) </summary>
+  <summary> Week 1 (👈 Clink) : Implementation </summary>
 <ul>
   <li> https://programmers.co.kr/learn/courses/30/lessons/42576</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12925</li>
@@ -18,7 +18,7 @@
 </ul>
 </details>
 <details>
-  <summary> Week 2 (👈 Clink) </summary>
+  <summary> Week 2 (👈 Clink) : Implementation </summary>
 <ul>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12969</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12954</li>
@@ -76,6 +76,45 @@
     <li> 이것이 코딩테스트다 Q-20 감시 피하기</li>
     <li> 이것이 코딩테스트다 Q-21 인구 이동</li>
     <li> 이것이 코딩테스트다 Q-22 블록 이동하기</li>
+  </ul>
+</details>
+<details>
+  <summary> Week 7 (👈 Clink) : Binary Search</summary>
+  <ul>
+    <li> 이것이 코딩테스트다 Q-27 정렬된 배열에서 특정 수의 개수 구하기</li>
+    <li> 이것이 코딩테스트다 Q-28 고정점 찾기</li>
+    <li> 이것이 코딩테스트다 Q-29 공유기 설치</li>
+    <li> 이것이 코딩테스트다 Q-30 가사 검색</li>
+  </ul>
+</details>
+<details>
+  <summary> Week 8 (👈 Clink) : Dynamic Programming</summary>
+  <ul>
+    <li> 이것이 코딩테스트다 Q-31 금광</li>
+    <li> 이것이 코딩테스트다 Q-32 정수 삼각형</li>
+    <li> 이것이 코딩테스트다 Q-33 퇴사</li>
+    <li> 이것이 코딩테스트다 Q-34 병사 배치하기</li>
+    <li> 이것이 코딩테스트다 Q-35 못생긴 수</li>
+    <li> 이것이 코딩테스트다 Q-36 편집 거리</li>
+  </ul>
+</details>
+<details>
+  <summary> Week 9 (👈 Clink) : Shortest Path</summary>
+  <ul>
+    <li> 이것이 코딩테스트다 Q-37 플로이드</li>
+    <li> 이것이 코딩테스트다 Q-38 정확한 순위</li>
+    <li> 이것이 코딩테스트다 Q-39 화성 탐사</li>
+    <li> 이것이 코딩테스트다 Q-40 숨바꼭질</li>
+  </ul>
+</details>
+<details>
+  <summary> Week 10 (👈 Clink) : Graph</summary>
+  <ul>
+    <li> 이것이 코딩테스트다 Q-41 여행 계획</li>
+    <li> 이것이 코딩테스트다 Q-42 탑승구</li>
+    <li> 이것이 코딩테스트다 Q-43 어두운 길</li>
+    <li> 이것이 코딩테스트다 Q-44 행성 터널</li>
+    <li> 이것이 코딩테스트다 Q-45 최종 순위</li>
   </ul>
 </details>
 <details>
