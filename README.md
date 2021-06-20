@@ -66,6 +66,19 @@
   </ul>
 </details>
 <details>
+  <summary> Week 6 (👈 Clink) : DFS/BFS</summary>
+  <ul>
+    <li> 이것이 코딩테스트다 Q-15 특정 거리 도시 찾기</li>
+    <li> 이것이 코딩테스트다 Q-16 연구소</li>
+    <li> 이것이 코딩테스트다 Q-17 경쟁적 전염</li>
+    <li> 이것이 코딩테스트다 Q-18 괄호 변환</li>
+    <li> 이것이 코딩테스트다 Q-19 연산자 끼워 넣기</li> 
+    <li> 이것이 코딩테스트다 Q-20 감시 피하기</li>
+    <li> 이것이 코딩테스트다 Q-21 인구 이동</li>
+    <li> 이것이 코딩테스트다 Q-22 블록 이동하기</li>
+  </ul>
+</details>
+<details>
   <summary> 🔑 Key Point (👈 Clink) </summary>
 <ul>
   <li> 문제 설명</li>
