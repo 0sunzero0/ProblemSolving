@@ -23,7 +23,6 @@
   <li> https://programmers.co.kr/learn/courses/30/lessons/68644</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12901</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/68935</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/42889</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12926</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/42862</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12917</li>
