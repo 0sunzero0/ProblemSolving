@@ -45,8 +45,8 @@
   <summary> Week 4 (👈 Clink) : Implementation & Sort</summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-7 럭키 스트레이트</li>
-    <li> 이것이 코딩테스트다 Q-9 문자열 압축</li>
     <li> 이것이 코딩테스트다 Q-8 문자열 재정렬</li>
+    <li> 이것이 코딩테스트다 Q-9 문자열 압축</li>
     <li> 이것이 코딩테스트다 Q-10 자물쇠와 열쇠</li>
     <li> 이것이 코딩테스트다 Q-23 국영수</li>
     <li> 이것이 코딩테스트다 Q-24 안테나</li>
