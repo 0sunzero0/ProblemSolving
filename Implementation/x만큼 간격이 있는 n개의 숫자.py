@@ -10,6 +10,7 @@
     x를 리스트에 넣기
 4. 느낀점
 1) 간단하게 : return [i * x for i in range(1, n+1)]
+2) 직관적으로 이해하기 쉽게 1부터 시작
 '''
 def solution(x, n):
     answer = []
