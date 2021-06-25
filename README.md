@@ -5,6 +5,7 @@
 
 <hr>
 <h2> 👨‍💻 Coding Challenge </h2>
+<h3> 60문제 달성 </h3>
 <details>
   <summary> Week 1 (👈 Clink) : Implementation </summary>
 <ul>
@@ -13,6 +14,7 @@
   <li> https://programmers.co.kr/learn/courses/30/lessons/12919</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12903</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12948</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/77884</li>
 </ul>
 </details>
 <details>
