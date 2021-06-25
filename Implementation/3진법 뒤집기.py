@@ -11,7 +11,7 @@
 2) 3진법 10진수
 - 문자열 길이 구하기
 - 반복할 조건 index~문자열 길이 만큼
-- 반복할 내용 answer += 문자열(index) * exp(3, len-1-index)
+- 반복할 내용 answer += 문자열(index) * exp(3, len-(index+1))
 
 3. 느낀점
 n진수 → 10진수 함수가 있다.
@@ -27,6 +27,6 @@ def solution(n):
     
     answer = 0
     for index in range(len(string)):
-        answer += int(string[index]) * (3 ** (len(string)-1-index))
+        answer += int(string[index]) * (3 ** (len(string)-(index+1)))
     
     return answer
