@@ -9,11 +9,11 @@
     x를 증가하고
     x를 리스트에 넣기
 4. 느낀점
-1) 간단하게 : return [i * x + x for i in range(n)]
+1) 간단하게 : return [i * x for i in range(1, n+1)]
 '''
 def solution(x, n):
     answer = []
-    for i in range(0, n):
+    for i in range(1, n+1):
         #x += x*i
-        answer.append(x*(i+1))
+        answer.append(x*(i))
     return answer
