@@ -24,7 +24,6 @@
 - 입력 받을 때, 이중 리스트로 이름, 국, 영, 수를 받는다.
 
 2) 정렬
-- 이중 반복문 사용해 각각 element에 접근
 - 정렬 기준
   국어 순으로 내림차순, 영어 점수 순 오름차순, 수학 점수 순 내림차순, 이름 순으로 오름차순
 - 정렬 할 때, 
@@ -34,16 +33,22 @@
 4. 느낀점
 1) 입력 받을 때, 어떤 자료구조에 넣는 것이 효율적인지 고민하게 되었다.
 정렬, element에 접근, 출력하기 쉬운 것이 dictionary(이름: [국, 영, 수]) 보다 이중 리스트가 나은 것 같아서 선택했다.  
+2) 자료구조에는 list, dictionary 등 여러가지 있는데 데이터 자유자재로 접근하고 활용하기 때문에 list 많이 쓴다. 
+원소 추가, 삭제, 스크렘블 뒤로해서 짝수개로 뺀다던지에 대해 알면 문제에 도움 될 것이다.
+remove, del 활용 잘하자.
+remove 잘 활용하면 문제 쉽게 풀 수 있다, 효율적으로 풀 수 있다.
 '''
 
 N = int(input())
 array = []
 
 for i in range(N):
-  input_data = input().split()
-  array.append((input_data[0], int(input_data[1]), int(input_data[2]), int(input_data[3])))
+  #input_data = input().split()
+  #array.append((input_data[0], int(input_data[1]), int(input_data[2]), int(input_data[3])))
+  # 1줄로 입력 받기, 정렬할 때, int로 정렬하면 된다.
+  students.append(input().split())
 
-array = sorted(array, key = lambda x : (-x[1], x[2], -x[3], x[0]))
+array.sort(key = lambda x : (-int(x[1]), int(x[2]), -int(x[3]), x[0]))
 
 for score in array:
   print(score[0])
