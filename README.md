@@ -14,7 +14,7 @@
   <li> https://programmers.co.kr/learn/courses/30/lessons/12919</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12903</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12948</li>
-  <li> https://programmers.co.kr/learn/courses/30/lessons/42576</li>
+  <li> https://programmers.co.kr/learn/courses/30/lessons/12982</li>
 </ul>
 </details>
 <details>
