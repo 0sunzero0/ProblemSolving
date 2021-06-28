@@ -5,7 +5,6 @@
 
 <hr>
 <h2> 👨‍💻 Coding Challenge </h2>
-<h3> 🔥 60문제 달성 목표 </h3>
 <details>
   <summary> (👈 Clink) : Implementation  </summary>
 <ul>
@@ -116,6 +115,13 @@
   <li> 최적화된 풀이</li>
   <li> 느낀점</li>
 </ul>
+<h3> ⭐️ History  </h3>
+<details>
+  <summary> 펼쳐보기 (👈 Clink)  </summary>
+  <ul>
+    <li> 💫 21.06.06 1문제 달성 </li>
+  </ul>
+</details>
 
 <hr>
 <h2> 📝 Subject Topic</h2>
@@ -139,6 +145,7 @@
   <br>&nbsp&nbsp- 힙 정렬
   </li>
 </ul>
+
 <hr>
 <h2> 📚 Reference</h2>
 
