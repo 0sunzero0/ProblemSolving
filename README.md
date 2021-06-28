@@ -5,9 +5,9 @@
 
 <hr>
 <h2> 👨‍💻 Coding Challenge </h2>
-<h3> 60문제 달성 목표 </h3>
+<h3> 🔥 60문제 달성 목표 </h3>
 <details>
-  <summary> Implementation (👈 Clink) </summary>
+  <summary> (👈 Clink) : Implementation  </summary>
 <ul>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12917</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/42840</li>
@@ -35,7 +35,7 @@
 </ul>
 </details>
 <details>
-  <summary> Greedy (👈 Clink) </summary> 
+  <summary> (👈 Clink) : Greedy  </summary> 
 <ul>
   <li> 이것이 코딩테스트다 Q-1 모험가길드</li>
   <li> 이것이 코딩테스트다 Q-2 곱하기 또는 더하기</li>
@@ -46,7 +46,7 @@
 </ul>
 </details>
 <details>
-  <summary> DFS/BFS (👈 Clink) </summary>
+  <summary> (👈 Clink) : DFS/BFS  </summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-15 특정 거리 도시 찾기</li>
     <li> 이것이 코딩테스트다 Q-16 연구소</li>
@@ -59,7 +59,7 @@
   </ul>
 </details>
 <details>
-  <summary> Sort (👈 Clink) </summary>
+  <summary> (👈 Clink) : Sort  </summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-23 국영수</li>
     <li> 이것이 코딩테스트다 Q-24 안테나</li>
@@ -68,7 +68,7 @@
   </ul>
 </details>
 <details>
-  <summary> Binary Search (👈 Clink) </summary>
+  <summary> (👈 Clink) : Binary Search  </summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-27 정렬된 배열에서 특정 수의 개수 구하기</li>
     <li> 이것이 코딩테스트다 Q-28 고정점 찾기</li>
@@ -77,7 +77,7 @@
   </ul>
 </details>
 <details>
-  <summary> Dynamic Programming (👈 Clink) </summary>
+  <summary> (👈 Clink) : Dynamic Programming  </summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-31 금광</li>
     <li> 이것이 코딩테스트다 Q-32 정수 삼각형</li>
@@ -88,7 +88,7 @@
   </ul>
 </details>
 <details>
-  <summary> Shortest Path (👈 Clink) </summary>
+  <summary> (👈 Clink) : Shortest Path  </summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-37 플로이드</li>
     <li> 이것이 코딩테스트다 Q-38 정확한 순위</li>
@@ -97,7 +97,7 @@
   </ul>
 </details>
 <details>
-  <summary> Graph (👈 Clink) </summary>
+  <summary> (👈 Clink) : Graph  </summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-41 여행 계획</li>
     <li> 이것이 코딩테스트다 Q-42 탑승구</li>
@@ -106,8 +106,7 @@
     <li> 이것이 코딩테스트다 Q-45 최종 순위</li>
   </ul>
 </details>
-<details>
-  <summary> 🔑 Key Point (👈 Clink) </summary>
+<h3> 🔑 Key Point  </h3>
 <ul>
   <li> 문제 설명</li>
   <li> 나의 풀이
@@ -117,7 +116,7 @@
   <li> 최적화된 풀이</li>
   <li> 느낀점</li>
 </ul>
-</details>
+
 <hr>
 <h2> 📝 Subject Topic</h2>
 <ul>
