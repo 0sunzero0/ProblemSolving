@@ -5,9 +5,9 @@
 
 <hr>
 <h2> 👨‍💻 Coding Challenge </h2>
-<h3> 60문제 달성 </h3>
+<h3> 60문제 달성 목표 </h3>
 <details>
-  <summary> Week 1 (👈 Clink) : Implementation </summary>
+  <summary> Implementation (👈 Clink) </summary>
 <ul>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12917</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/42840</li>
@@ -15,11 +15,6 @@
   <li> https://programmers.co.kr/learn/courses/30/lessons/12903</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12948</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12982</li>
-</ul>
-</details>
-<details>
-  <summary> Week 2 (👈 Clink) : Implementation </summary>
-<ul>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12969</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12954</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/68644</li>
@@ -29,10 +24,18 @@
   <li> https://programmers.co.kr/learn/courses/30/lessons/42862</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12917</li>
   <li> https://programmers.co.kr/learn/courses/30/lessons/12950</li>
+  <li> 이것이 코딩테스트다 Q-7 럭키 스트레이트</li>
+  <li> 이것이 코딩테스트다 Q-8 문자열 재정렬</li>
+  <li> 이것이 코딩테스트다 Q-9 문자열 압축</li>
+  <li> 이것이 코딩테스트다 Q-10 자물쇠와 열쇠</li>
+  <li> 이것이 코딩테스트다 Q-11 뱀</li>
+  <li> 이것이 코딩테스트다 Q-12 기둥고 보 설치</li>
+  <li> 이것이 코딩테스트다 Q-13 치킨 배달</li>
+  <li> 이것이 코딩테스트다 Q-14 외벽 점검</li>
 </ul>
 </details>
 <details>
-  <summary> Week 3 (👈 Clink) : Greedy </summary> 
+  <summary> Greedy (👈 Clink) </summary> 
 <ul>
   <li> 이것이 코딩테스트다 Q-1 모험가길드</li>
   <li> 이것이 코딩테스트다 Q-2 곱하기 또는 더하기</li>
@@ -43,29 +46,7 @@
 </ul>
 </details>
 <details>
-  <summary> Week 4 (👈 Clink) : Implementation & Sort</summary>
-  <ul>
-    <li> 이것이 코딩테스트다 Q-7 럭키 스트레이트</li>
-    <li> 이것이 코딩테스트다 Q-8 문자열 재정렬</li>
-    <li> 이것이 코딩테스트다 Q-9 문자열 압축</li>
-    <li> 이것이 코딩테스트다 Q-10 자물쇠와 열쇠</li>
-    <li> 이것이 코딩테스트다 Q-23 국영수</li>
-    <li> 이것이 코딩테스트다 Q-24 안테나</li>
-  </ul>
-</details>
-<details>
-  <summary> Week 5 (👈 Clink) : Implementation & Sort</summary>
-  <ul>
-    <li> 이것이 코딩테스트다 Q-11 뱀</li>
-    <li> 이것이 코딩테스트다 Q-12 기둥고 보 설치</li>
-    <li> 이것이 코딩테스트다 Q-13 치킨 배달</li>
-    <li> 이것이 코딩테스트다 Q-14 외벽 점검</li>
-    <li> 이것이 코딩테스트다 Q-25 실패율</li> 
-    <li> 이것이 코딩테스트다 Q-26 카드 정렬하기</li>
-  </ul>
-</details>
-<details>
-  <summary> Week 6 (👈 Clink) : DFS/BFS</summary>
+  <summary> DFS/BFS (👈 Clink) </summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-15 특정 거리 도시 찾기</li>
     <li> 이것이 코딩테스트다 Q-16 연구소</li>
@@ -78,7 +59,16 @@
   </ul>
 </details>
 <details>
-  <summary> Week 7 (👈 Clink) : Binary Search</summary>
+  <summary> Sort (👈 Clink) </summary>
+  <ul>
+    <li> 이것이 코딩테스트다 Q-23 국영수</li>
+    <li> 이것이 코딩테스트다 Q-24 안테나</li>
+    <li> 이것이 코딩테스트다 Q-25 실패율</li> 
+    <li> 이것이 코딩테스트다 Q-26 카드 정렬하기</li>
+  </ul>
+</details>
+<details>
+  <summary> Binary Search (👈 Clink) </summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-27 정렬된 배열에서 특정 수의 개수 구하기</li>
     <li> 이것이 코딩테스트다 Q-28 고정점 찾기</li>
@@ -87,7 +77,7 @@
   </ul>
 </details>
 <details>
-  <summary> Week 8 (👈 Clink) : Dynamic Programming</summary>
+  <summary> Dynamic Programming (👈 Clink) </summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-31 금광</li>
     <li> 이것이 코딩테스트다 Q-32 정수 삼각형</li>
@@ -98,7 +88,7 @@
   </ul>
 </details>
 <details>
-  <summary> Week 9 (👈 Clink) : Shortest Path</summary>
+  <summary> Shortest Path (👈 Clink) </summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-37 플로이드</li>
     <li> 이것이 코딩테스트다 Q-38 정확한 순위</li>
@@ -107,7 +97,7 @@
   </ul>
 </details>
 <details>
-  <summary> Week 10 (👈 Clink) : Graph</summary>
+  <summary> Graph (👈 Clink) </summary>
   <ul>
     <li> 이것이 코딩테스트다 Q-41 여행 계획</li>
     <li> 이것이 코딩테스트다 Q-42 탑승구</li>
