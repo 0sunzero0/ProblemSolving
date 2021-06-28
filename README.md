@@ -119,7 +119,7 @@
 <details>
   <summary> 펼쳐보기 (👈 Clink)  </summary>
   <ul>
-    <li> 💫 21.06.06 1문제 달성 </li>
+    <li> 💫 21.06.13 1문제 달성 </li>
   </ul>
 </details>
 
