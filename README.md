@@ -12,8 +12,6 @@
   </ul>
 </details>
 <h3> 🔑 Key Point  </h3>
-<details>
-  <summary> 펼쳐보기 (👈 Clink)  </summary>
 <ul>
   <li> 문제 설명</li>
   <li> 나의 풀이
@@ -23,7 +21,6 @@
   <li> 최적화된 풀이</li>
   <li> 느낀점</li>
 </ul>
-</details>
 
 
 <hr>
