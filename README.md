@@ -9,8 +9,6 @@
   <summary> 펼쳐보기 (👈 Clink) : ⏰ 51문제</li></summary>
   <ul>
     <li>💫 25문제 달성&nbsp&nbsp&nbsp2021.08.25</li>
-    <li>💫 50문제 달성&nbsp&nbsp&nbsp2021.08.30</li>
-    <li>💫 100문제 달성&nbsp2021.09.09</li>
   </ul>
 </details>
 <h3> 🔑 Key Point  </h3>
