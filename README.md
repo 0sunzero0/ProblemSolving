@@ -8,7 +8,8 @@
 <details>
   <summary> 펼쳐보기 (👈 Clink)  </summary>
   <ul>
-    <li> 💫 21.06.13 1문제 달성 </li>
+    <li>배열</li>
+    <li>비선형 자료구조</li>
   </ul>
 </details>
 <h3> 🔑 Key Point  </h3>
