@@ -6,7 +6,7 @@
 <hr>
 <h2> 👨‍💻 Coding Challenge </h2>
 <details>
-  <summary> 펼쳐보기 (👈 Clink) : ⏰ 51문제</li></summary>
+  <summary> 펼쳐보기 (👈 Clink) : ⏰ 27문제</li></summary>
   <ul>
     <li>💫 25문제 달성&nbsp&nbsp&nbsp2021.08.25</li>
   </ul>
