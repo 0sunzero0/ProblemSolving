@@ -6,10 +6,10 @@
 <hr>
 <h2> 👨‍💻 Coding Challenge </h2>
 <details>
-  <summary> 펼쳐보기 (👈 Clink)  </summary>
+  <summary> 펼쳐보기 (👈 Clink) : ⏰ 51문제</li></summary>
   <ul>
-    <li>배열</li>
-    <li>비선형 자료구조</li>
+    <li>25문제 달성 (2021.08.25)</li>
+    <li>50문제 달성 (2021.08.30)</li>
   </ul>
 </details>
 <h3> 🔑 Key Point  </h3>
@@ -46,11 +46,3 @@
   <br>&nbsp&nbsp- 힙 정렬
   </li>
 </ul>
-
-<hr>
-<h2> 📚 Reference</h2>
-
-  - [이것이 취업을 위한 코딩 테스트다 with Python](https://github.com/ndb796/python-for-coding-test)
-  - [파이썬 알고리즘 인터뷰](https://github.com/onlybooks/algorithm-interview)
-  
-<hr>
