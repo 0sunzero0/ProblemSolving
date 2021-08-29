@@ -1,9 +1,7 @@
 <div align=center>
 <h1> Level Up Problem Solving </h1>
-🔥 Repository For Upgrading Problem Solving Capabilities Using Algorithm 🔥
 </div>
 
-<hr>
 <h3> 🔑 Key Point  </h3>
 <ul>
   <li> 문제 설명</li>
@@ -15,9 +13,8 @@
   <li> 느낀점</li>
 </ul>
 
-
-<hr>
-<h2> 📝 Subject Topic</h2>
+<br>
+<h3> 📝 Subject Topic</h3>
 <ul>
   <li> 배열</li>
   <li> 링크드리스트</li>
