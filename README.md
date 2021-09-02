@@ -2,18 +2,6 @@
 <h2> 🔥 Level Up Ability To Solve Problem 🔥 </h2>
 </div>
 
-<h3> 🔑 Key Point  </h3>
-<ul>
-  <li> 문제 설명</li>
-  <li> 나의 풀이
-    <br>&nbsp&nbsp- 접근 방법 : 어떤 알고리즘인지
-    <br>&nbsp&nbsp- 코드 설명 : 어떻게 코드 짰는지
-  </li>
-  <li> 최적화된 풀이</li>
-  <li> 느낀점</li>
-</ul>
-
-<br>
 <h3> 📝 Subject Topic</h3>
 <ul>
   <li> 배열</li>
