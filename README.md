@@ -18,7 +18,7 @@
 </ul>
 
 <h3> ✨ Challenge</h3>
-<ul>
+<ul type="none">
   <li> 100 문제 달성 (2021.09.08)</li>
 </ul>
 
