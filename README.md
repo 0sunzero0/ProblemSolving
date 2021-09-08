@@ -19,6 +19,7 @@
 
 <h3> ✨ Challenge</h3>
 <ul type="none">
+  <li> <a href = "https://sunzero.notion.site/23e3b07a66cd47f4a48b0c3307d4f778?v=b4e54fdaca0641adbec60108be84f964">문제 풀이 기록</a>
   <li> 100 문제 달성 (2021.09.08)</li>
 </ul>
 
