@@ -9,11 +9,11 @@
   <li> 트리</li>
   <li> 스택</li>
   <li> 큐</li>
-  <li> 그래프 ⭐⭐⭐⭐⭐</li>
+  <li> 그래프</li>
   <li> 해쉬 테이블</li>
   <li> 힙</li>
-  <li> 이진탐색 ⭐⭐⭐⭐⭐</li>
-  <li> DP ⭐⭐⭐⭐</li>
+  <li> 이진탐색</li>
+  <li> DP</li>
   <li> 정렬</li>
 </ul>
 
