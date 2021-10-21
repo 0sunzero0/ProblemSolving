@@ -6,15 +6,13 @@
 <ul>
   <li> 배열</li>
   <li> 링크드리스트</li>
-  <li> 트리</li>
+  <li> 이진탐색</li>
   <li> 스택</li>
   <li> 큐</li>
-  <li> 그래프</li>
   <li> 해쉬 테이블</li>
   <li> 힙</li>
-  <li> 이진탐색</li>
+  <li> 그래프</li>
   <li> DP</li>
-  <li> 정렬</li>
 </ul>
 
 <h3> ✨ Challenge</h3>
