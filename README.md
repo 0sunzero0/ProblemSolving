@@ -11,8 +11,11 @@
   <li> 큐</li>
   <li> 해쉬 테이블</li>
   <li> 힙</li>
-  <li> 그래프</li>
+  <li> DFS/BFS</li>
   <li> DP</li>
+  <li> 완전탐색</li>
+  <li> 백트레킹</li>
+  <li> 최단거리</li>
 </ul>
 
 <h3> ✨ Challenge</h3>
