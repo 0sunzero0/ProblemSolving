@@ -1,20 +1,28 @@
-## 🚀 Level Up
+# 🚀 Level Up
 
 
-### 📝 Subject Topic
-- 스택
-- 큐
-- 해쉬 테이블
-- 힙
-- DFS/BFS
-- 완전탐색
+## 📝 Subject Topic
+---
+- ⭐⭐⭐ 구현
+- ⭐⭐⭐ 자료구조: 큐, 스택, 해쉬 테이블, 힙
+- ⭐ 순열조합 활용
+- ⭐⭐⭐ DFS, BFS
+- ⭐⭐⭐ 최단거리
+- ⭐⭐⭐ 투포인터
+- ⭐⭐ 완전탐색
+- ⭐⭐ 다이나믹 프로그래밍
+- ⭐⭐ 시뮬레이션
+- ⭐ Union Find
+- ⭐⭐⭐ 이분탐색
 - 백트레킹
 - 그리디
-- 투포인터
-- 이분탐색
-- DP
-- 최단거리
+---
+- Trie
+- Flood fill
+- 비트 마스킹
+- 위상정렬
+- 세그먼트 트리
+---
 
-
-### ✨ Challenge
+## ✨ Challenge
 - [문제 풀이 기록](https://sunzero.notion.site/23e3b07a66cd47f4a48b0c3307d4f778?v=b4e54fdaca0641adbec60108be84f964)
