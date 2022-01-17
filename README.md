@@ -15,7 +15,6 @@
 - ⭐ 순열조합 활용
 - ⭐ Union Find
 - Trie
-- 비트 마스킹
 ---
 
 ## ✨ Challenge
