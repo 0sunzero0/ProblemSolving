@@ -1,0 +1,14 @@
+### IntelliJ IDEA ###
+.idea
+__pycache__
+venv
+
+### VS Code ###
+.vscode/
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+venv/*
+Icon
