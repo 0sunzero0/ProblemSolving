@@ -22,11 +22,8 @@ def solution(skill, skill_trees):
         for element in skills:
             # 해당 skill의 하나의 element가 skill 리스트에 있다면,
             if element in skill_standard:
-                # 스킬 리스트의 남은 skill 중 맨 앞과 같은지 확인
-                if element == skill_standard.pop(0):
-                    continue
-                # 아니라면, → flag = false
-                else:
+                # 스킬 리스트의 남은 skill 중 맨 앞과 다른지 확인
+                if element != skill_standard.pop(0):
                     flag = False
 
         # 다 순회하고, count += 1
