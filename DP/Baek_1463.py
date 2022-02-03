@@ -1,15 +1,15 @@
-def make_one(N, count):
-    if N == 1:
-        global ret
-        ret = min(ret, count)
-        return
+def make_one(N):
+    dp[1] = 0
+    dp[2] = 1
+    for i in range(3, N+1):
+        dp[i] = dp[i-1] + 1
+        if i % 2 == 0:
+            dp[i] = min(dp[i], dp[i//2] + 1)
+        if i % 3 == 0:
+            dp[i] = min(dp[i], dp[i//3] + 1)
 
-    if N % 2 == 0: make_one(N / 2, count + 1)
-    if N % 3 == 0: make_one(N / 3, count + 1)
-    make_one(N - 1, count + 1)
-
+    print(dp[N])
 
 N = int(input())
-ret = 1000000
-make_one(N, 0)
-print(ret)
+dp = [0 for i in range(N + 1)]
+make_one(N)
