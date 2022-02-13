@@ -11,12 +11,5 @@
 - ⭐⭐⭐ 이분탐색
 - ⭐⭐⭐ 최단거리
 
----
-- ⭐ 순열조합 활용
-- ⭐ Union Find
-- Trie
----
-
 ## ✨ Challenge
-- [뼈대 문제 풀이 기록](https://sunzero.notion.site/7c6964f1028848439caaebfc6354c3dc?v=ef3f09c2d4c34ecb92c0b2919a56f4f8)
-- [문제 풀이 기록](https://sunzero.notion.site/23e3b07a66cd47f4a48b0c3307d4f778?v=b4e54fdaca0641adbec60108be84f964)
+- [문제 풀이 기록](https://sunzero.notion.site/23e3b07a66cd47f4a48b0c3307d4f778?v=3f5983f8503e472382ba0658b55c6e2b)
