@@ -12,9 +12,14 @@ virus_queue = deque()
 def get_safe_area():
     visited = [[0] * M for _ in range(N)] # virus가 갈 수 있으면, 방문
 
+    for i in range(N):
+        for j in range(M):
+            if graph[i][j] == 2:
+                visited[i][j] = 1
+                virus_queue.append((i, j))
+
     while virus_queue:
         y, x = virus_queue.popleft()
-        visited[y][x] = 1
         for i in range(4):
             ny, nx = y + dy[i], x + dx[i]
             if 0 <= ny < N and 0 <= nx < M and visited[ny][nx] == 0 and graph[ny][nx] == 0:
@@ -42,7 +47,6 @@ def simulate(wall_count):
                 graph[i][j] = 1
                 simulate(wall_count + 1)
                 graph[i][j] = 0
-
 
 simulate(0)
 print(max_safe_area)
