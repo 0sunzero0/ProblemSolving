@@ -33,20 +33,36 @@ def get_safe_area():
                 zero_count += 1
     return zero_count
 
-def simulate(wall_count):
-    global max_safe_area
 
-    if wall_count == 3:
-        safe_area = get_safe_area()
-        max_safe_area = max(max_safe_area, safe_area)
-        return
+for y1 in range(N):
+    for x1 in range(M):
+        if graph[y1][x1] != 0:
+            continue
+        for y2 in range(N):
+            for x2 in range(M):
+                if graph[y2][x2] != 0:
+                    continue
+                for y3 in range(N):
+                    for x3 in range(M):
+                        if graph[y3][x3] != 0:
+                            continue
 
-    for i in range(N):
-        for j in range(M):
-            if graph[i][j] == 0:
-                graph[i][j] = 1
-                simulate(wall_count + 1)
-                graph[i][j] = 0
+                        if x1 == x2 and y1 == y2:
+                            continue
+                        if x1 == x3 and y1 == y3:
+                            continue
+                        if x2 == x3 and y2 == y3:
+                            continue
 
-simulate(0)
+                        graph[y1][x1] = 1
+                        graph[y2][x2] = 1
+                        graph[y3][x3] = 1
+
+                        safe_area = get_safe_area()
+                        max_safe_area = max(safe_area, max_safe_area)
+
+                        graph[y1][x1] = 0
+                        graph[y2][x2] = 0
+                        graph[y3][x3] = 0
+
 print(max_safe_area)
