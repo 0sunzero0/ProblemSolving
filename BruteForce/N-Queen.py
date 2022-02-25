@@ -44,7 +44,7 @@ def dfs(row, col, n):
         return count
 
 
-def solution(n: int) -> int:
+def solution(int):
     col = [0 for _ in range(n)]
     answer = 0
     # 1. 첫번째 열에서 DFS 탐색 시작
