@@ -13,6 +13,7 @@ for _ in range(M):
 def bfs(v):
     queue = deque()
     queue.append(v)
+    visited[v] = True
 
     while queue:
         vertex = queue.popleft()
@@ -22,6 +23,7 @@ def bfs(v):
                 queue.append(next_vertex)
 
 def dfs(v):
+    visited[v] = True
     for next_vertex in graph[v]:
         if visited[next_vertex] == False:
             visited[next_vertex] = True
