@@ -26,7 +26,6 @@ def dfs(v):
     visited[v] = True
     for next_vertex in graph[v]:
         if visited[next_vertex] == False:
-            visited[next_vertex] = True
             dfs(next_vertex)
 
 for v in range(1, N+1):
