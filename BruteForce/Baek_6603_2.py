@@ -1,14 +1,18 @@
 from itertools import combinations
 
-input_array = []
 while True:
-    input_array = list(map(int, input().split()))
-    input_array.pop(0)
-    if len(input_array) == 0:
+    length, *arr = list(map(int,input().split()))
+    if length == 0:
         break
 
-    cases = list(combinations(input_array, 6))
+    cases = list(combinations(arr, 6))
 
     for case in cases:
         print(*case)
     print()
+
+'''
+7 1 2 3 4 5 6 7
+8 1 2 3 5 8 13 21 34
+0
+'''

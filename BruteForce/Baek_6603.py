@@ -1,18 +1,17 @@
-input_array = []
-
 def go(arr, index, lotto):
-    if index == 6:
-        print(' '.join(map(str,lotto)))
+    if len(lotto) == 6:
+        print(' '.join(map(str, lotto)))
         return
     if index == len(arr):
         return
-    go(index + 1, index + 1, lotto+[arr[index]])
-    go(index + 1, index, lotto)
+    go(arr, index + 1, lotto + [arr[index]])
+    go(arr, index + 1, lotto)
 
 while True:
     length, *arr = list(map(int,input().split()))
     if length == 0:
         break
+
     go(arr, 0, [])
     print()
 
