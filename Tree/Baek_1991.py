@@ -1,8 +1,5 @@
-import sys
 N = int(input())
 graph = {chr(vertex + 65) : ['.', '.'] for vertex in range(0, N+1)}
-
-sys.setrecursionlimit(26 * 2 * 3)
 
 def init():
     for _ in range(N):
