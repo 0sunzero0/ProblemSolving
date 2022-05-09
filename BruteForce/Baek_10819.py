@@ -1,11 +1,3 @@
-'''
-- 배열 A의 순서를 바꾸면서, 위의 식에 넣기
-    - 배열 순서 → N! -> permutations(arr)
-- 위의 식의 결과를 힙이라는 자료구조에 넣기 (힙은 최대값과 최소값을 빠르게 찾는다.)
-- 최댓값 출력하기
-'''
-
-
 from itertools import permutations
 import heapq
 
