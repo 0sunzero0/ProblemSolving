@@ -16,12 +16,11 @@ def go(depth):
         if not visited[i] and overlap != arr[i]:
             visited[i] = True
             selected.append(arr[i])
-            overlap = arr[i]
-
             go(depth + 1)
 
             visited[i] = False
             selected.pop()
+            overlap = arr[i]
 
 
 go(0)
