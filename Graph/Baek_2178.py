@@ -5,6 +5,7 @@ graph = [input().strip() for _ in range(N)]
 distance = [[0] * M for _ in range(N)]
 direction = [[1, 0], [0, 1], [-1, 0], [0, -1]]
 
+
 def bfs():
     queue = deque()
     queue.append((0, 0))
@@ -16,12 +17,13 @@ def bfs():
             nx, ny = dx + x, dy + y
             if 0 <= ny < N and 0 <= nx < M:
                 if graph[ny][nx] == '1' and distance[ny][nx] == 0:
-                    distance[ny][nx] = distance[y][x] + 1
                     queue.append((ny, nx))
+                    distance[ny][nx] = distance[y][x] + 1
 
 
 bfs()
 print(distance[N-1][M-1])
+
 '''
 4 6
 101111
