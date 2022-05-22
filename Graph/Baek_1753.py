@@ -21,8 +21,8 @@ heapq.heappush(Q, (0, start))
 while Q:
     distance_x, x = heapq.heappop(Q)
 
-    # 꺼낸 정보가 최신 정보보다 크면, 의미없는 정보이므로 pass
-    if distance[x] < distance_x: continue
+    # 꺼낸 정보가 최신 정보랑 다르면, 의미없는 정보이므로 pass
+    if distance[x] != distance_x: continue
 
     # 연결된 모든 간선들을 통해서 다른 정점들에 대한 정보를 갱신해준다.
     for u, weight in graph[x]:
