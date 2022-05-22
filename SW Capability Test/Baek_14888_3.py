@@ -30,8 +30,6 @@ def calculate(operator):
 
 
 selected = []
-visited = [False] * (N - 1)
-
 
 def permutation(depth):
     global max_value, min_value
@@ -41,14 +39,14 @@ def permutation(depth):
             min_value = min(min_value, calculate(selected))
         return
 
-    for i in range(N - 1):
-        if not visited[i]:
-            visited[i] = True
-            selected.append(operators[i])
+    for cand in range(4):
+        if operators_count[cand] >= 1:
+            operators_count[cand] -= 1
+            selected.append(operator_type[cand])
 
             permutation(depth + 1)
 
-            visited[i] = False
+            operators_count[cand] += 1
             selected.pop()
 
 
