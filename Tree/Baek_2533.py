@@ -1,9 +1,9 @@
 import sys
-sys.setrecursionlimit(10 ** 9)
+sys.setrecursionlimit(10 ** 6)
 input = sys.stdin.readline
 
 N = int(input())
-tree = {vertex : [] for vertex in range(1, N + 1)}
+tree =  [ [] for _ in range(N + 1) ]
 dp = [[0, 0] for _ in range(N + 1)]
 visited = [False for _ in range(N + 1)]
 
