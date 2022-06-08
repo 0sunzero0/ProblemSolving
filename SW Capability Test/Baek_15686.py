@@ -20,11 +20,6 @@ for i in range(N):
             city_pos.append((i, j))
 
 
-def is_chicken_pos(y, x):
-    global temp_grid
-    return temp_grid[y][x] == 2
-
-
 def in_range(y, x):
     return 0 <= y < N and 0 <= x < N
 
