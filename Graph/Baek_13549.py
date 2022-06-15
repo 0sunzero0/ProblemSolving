@@ -19,6 +19,6 @@ while hq:
         heapq.heappush(hq, (time, next_pos))
 
     for next_pos in (pos + 1, pos - 1):
-        if next_pos >= 0 and next_pos < len(visited) and not visited[next_pos]:
+        if 0 <= next_pos < len(visited) and not visited[next_pos]:
             visited[next_pos] = True
             heapq.heappush(hq, (time + 1, next_pos))
