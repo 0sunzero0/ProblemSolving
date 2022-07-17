@@ -1,4 +1,6 @@
 from collections import defaultdict
+import sys
+input = sys.stdin.readline
 
 N, d, K, c = tuple(map(int, input().split()))
 sushi = list(int(input()) for _ in range(N))
