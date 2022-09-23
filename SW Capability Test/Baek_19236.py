@@ -4,7 +4,7 @@ def init():
     for r in range(N):
         row = list(map(int, input().split()))
         for c in range(N):
-            grid[r][c] = (row[c * 2], row[c * 2 + 1] - 1)
+            grid[r][c] = (row[2 * c], row[2 * c + 1] - 1)
 
     return grid
 
@@ -17,77 +17,70 @@ def fish_can_go(r, c):
     return in_range(r, c) and grid[r][c] != SHARK
 
 
-def get_next(y, x, curr_dir):
-    for next_idx in range(DIR_NUM):
-        next_dir = (curr_dir + next_idx) % DIR_NUM
-        ny, nx = y + dys[next_dir], x + dxs[next_dir]
-        if fish_can_go(ny, nx):
-            return (ny, nx, next_dir)
+def get_next(cur_r, cur_c, cur_dir):
+    for di in range(DIR_NUM):
+        next_dir = (cur_dir + di) % DIR_NUM
+        next_r, next_c = cur_r + drs[next_dir], cur_c + dcs[next_dir]
+        if fish_can_go(next_r, next_c):
+            return next_r, next_c, next_dir
+    return cur_r, cur_c, cur_dir
 
-    return (y, x, curr_dir)
 
-
-def swap(r, c, nr, nc):
-    grid[r][c], grid[nr][nc] = grid[nr][nc], grid[r][c]
+def swap(cur_r, cur_c, next_r, next_c):
+    grid[cur_r][cur_c], grid[next_r][next_c] = grid[next_r][next_c], grid[cur_r][cur_c]
 
 
 def move_fish(target_num):
-    for y in range(N):
-        for x in range(N):
-            fish_num, curr_dir = grid[y][x]
+    for fish_r in range(N):
+        for fish_c in range(N):
+            fish_num, fish_dir = grid[fish_r][fish_c]
             if fish_num == target_num:
-                ny, nx, next_dir = get_next(y, x, curr_dir)
-                grid[y][x] = (fish_num, next_dir)
-                swap(y, x, ny, nx)
+                next_r, next_c, next_dir = get_next(fish_r, fish_c, fish_dir)
+                grid[fish_r][fish_c] = (fish_num, next_dir)
+                swap(fish_r, fish_c, next_r, next_c)
                 return
 
 
 def move_all_fish():
-    for target_num in range(1, N * N + 1):
-        move_fish(target_num)
+    for fish_num in range(1, N * N + 1):
+        move_fish(fish_num)
 
 
 def shark_can_go(r, c):
     return in_range(r, c) and grid[r][c] != BLANK
 
 
-def is_complete(cy, cx, cdir):
-    for step in range(1, N + 1):
-        ny, nx = cy + dys[cdir] * step, cx + dxs[cdir] * step
-        if shark_can_go(ny, nx):
+def is_complete(cur_r, cur_c, cur_dir):
+    for step in range(1, N):
+        next_r, next_c = cur_r + drs[cur_dir] * step, cur_c + dcs[cur_dir] * step
+        if shark_can_go(next_r, next_c):
             return False
     return True
 
 
-def get_max_fish_sum(cy, cx, cdir, fish_sum):
+def get_max_fish_sum(cur_r, cur_c, cur_dir, cur_fish_sum):
     global answer
+    answer = max(answer, cur_fish_sum)
 
-    if is_complete(cy, cx, cdir):
-        answer = max(answer, fish_sum)
-        return
+    temp_grid = [
+                    [grid[r][c] for c in range(N)]
+                    for r in range(N)
+                ]
 
-    for step in range(1, N + 1):
-        ny, nx = cy + dys[cdir] * step, cx + dxs[cdir] * step
-        if shark_can_go(ny, nx):
-            temp_grid = [
-                [grid[i][j] for j in range(N)]
-                for i in range(N)
-            ]
+    for step in range(1, N):
+        next_r, next_c = cur_r + drs[cur_dir] * step, cur_c + dcs[cur_dir] * step
 
-            # 물고기 잡아먹음
-            extra_fish_sum, ndir = grid[ny][nx]
-            grid[cy][cx], grid[ny][nx] = BLANK, SHARK
+        if shark_can_go(next_r, next_c):
 
-            # 물고기 이동
+            extra_fish_sum, next_dir = grid[next_r][next_c]
+            grid[cur_r][cur_c], grid[next_r][next_c] = BLANK, SHARK
+
             move_all_fish()
+            get_max_fish_sum(next_r, next_c, next_dir, cur_fish_sum + extra_fish_sum)
 
-            # 다음 탐색 진행
-            get_max_fish_sum(ny, nx, ndir, fish_sum + extra_fish_sum)
-
-            # 원래대로
-            for i in range(N):
-                for j in range(N):
-                    grid[i][j] = temp_grid[i][j]
+            for r in range(N):
+                for c in range(N):
+                    grid[r][c] = temp_grid[r][c]
 
 
 answer = 0
@@ -95,23 +88,20 @@ answer = 0
 N = 4
 DIR_NUM = 8
 
-# ↑, ↖, ←, ↙, ↓, ↘, →, ↗
-dys = [-1, -1, 0, 1, 1, 1, 0, -1]
-dxs = [0, -1, -1, -1, 0, 1, 1, 1]
+drs = [-1, -1, 0, 1, 1, 1, 0, -1]
+dcs = [0, -1, -1, -1, 0, 1, 1, 1]
 
 BLANK = (0, 0)
 SHARK = (-1, -1)
 grid = init()
 
-# 초기 상어가 잡아먹음
 init_fish_sum, init_dir = grid[0][0]
 grid[0][0] = SHARK
 
-# 물고기 이동
 move_all_fish()
 
-# 백트레킹
 get_max_fish_sum(0, 0, init_dir, init_fish_sum)
+
 print(answer)
 
 '''
